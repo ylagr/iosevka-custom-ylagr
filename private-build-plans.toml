@@ -1,5 +1,7 @@
 # Put your custom build plans here
 
+
+################ normal ##############
 [buildPlans.IosevkaYlagr]
 family = "Iosevka Ylagr"
 spacing = "term"
@@ -22,6 +24,64 @@ noLigation = true
     # sb默认为60，调整到58后，字符显得挤了点
     # sb = 59
 
+################# term ###################
+[buildPlans.IosevkaYlagrTerm]
+family = "Iosevka Ylagr Term"
+spacing = "term"
+serifs = "sans"
+noCvSs = false
+exportGlyphNames = true
+noLigation = true
+
+variants.inherits = "buildPlans.IosevkaYlagr"
+weights.inherits = "buildPlans.IosevkaYlagr"
+widths.inherits = "buildPlans.IosevkaYlagr"
+slopes.inherits = "buildPlans.IosevkaYlagr"
+
+    [buildPlans.IosevkaYlagrTerm.metricOverride]
+    # 1150 显示52行
+    # leading = 1150
+    # 1130显示55行
+    # leading = 1130
+    leading = 1250
+    cap = 665
+    ascender = 665
+    xHeight = 480
+    accentHeight = 136
+    parenSize = 840
+    # sb默认为60，调整到58后，字符显得挤了点
+    # sb = 59
+
+################### fixed ##################
+[buildPlans.IosevkaYlagrFixed]
+family = "Iosevka Ylagr Fixed"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = false
+exportGlyphNames = true
+noLigation = true
+
+variants.inherits = "buildPlans.IosevkaYlagr"
+weights.inherits = "buildPlans.IosevkaYlagr"
+widths.inherits = "buildPlans.IosevkaYlagr"
+slopes.inherits = "buildPlans.IosevkaYlagr"
+
+    [buildPlans.IosevkaYlagrFixed.metricOverride]
+    # 1150 显示52行
+    # leading = 1150
+    # 1130显示55行
+    # leading = 1130
+    leading = 1250
+    cap = 665
+    ascender = 665
+    xHeight = 480
+    accentHeight = 136
+    parenSize = 840
+    # sb默认为60，调整到58后，字符显得挤了点
+    # sb = 59
+
+
+################## base ###################
 [buildPlans.IosevkaYlagr.variants.design]
 two = "straight-neck-serifless"
 four = "closed-serifless"
@@ -87,5 +147,12 @@ menu = "italic"
 css = "italic"
 
 # To enable TTC building, uncomment the following section and write your collect plans
-# [collectPlans.IosevkaCustomSample]
-# from = ["IosevkaCustomSample"]
+[collectPlans.IosevkaYlagr]
+from = ["IosevkaYlagr"]
+
+[collectPlans.IosevkaYlagrTerm]
+from = ["IosevkaYlagrTerm"]
+
+[collectPlans.IosevkaYlagrFixed]
+from = ["IosevkaYlagrFixed"]
+
