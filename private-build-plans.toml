@@ -2,7 +2,7 @@
 
 [buildPlans.IosevkaYlagr]
 family = "Iosevka Ylagr"
-spacing = "normal"
+spacing = "term"
 serifs = "sans"
 noCvSs = false
 exportGlyphNames = true
