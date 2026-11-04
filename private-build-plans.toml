@@ -32,12 +32,12 @@ noLigation = true
     # sb默认为60，调整到58后，字符显得挤了点
     sb = 59   
     # 3. 【解决 Emacs 挤压的核心】往上下两端强行塞入硬空白
-    # 在底部强行垫 80 个单位的纯空白，逼迫 Emacs 露出底部间距
-    descenderPad = 80          
+    # 不起作用 在底部强行垫 80 个单位的纯空白，逼迫 Emacs 露出底部间距
+    # descenderPad = 80          
     
     # 配合顶部的系统垫片，这样上下都有保护层，Emacs 无论如何也裁剪不动它
-    winMetricAscenderPad = 80  
-    winMetricDescenderPad = 80 
+    winMetricAscenderPad = 200
+    winMetricDescenderPad = 251
 
 ################# term ###################
 [buildPlans.IosevkaYlagrTerm]
@@ -75,12 +75,12 @@ slopes.inherits = "buildPlans.IosevkaYlagr"
     # sb默认为60，调整到58后，字符显得挤了点
     sb = 59
     # 3. 【解决 Emacs 挤压的核心】往上下两端强行塞入硬空白
-    # 在底部强行垫 80 个单位的纯空白，逼迫 Emacs 露出底部间距
-    descenderPad = 80          
+    # 不起作用 在底部强行垫 80 个单位的纯空白，逼迫 Emacs 露出底部间距
+    # descenderPad = 80           
     
     # 配合顶部的系统垫片，这样上下都有保护层，Emacs 无论如何也裁剪不动它
-    winMetricAscenderPad = 80  
-    winMetricDescenderPad = 80 
+    winMetricAscenderPad = 200
+    winMetricDescenderPad = 251
 
 ################### fixed ##################
 [buildPlans.IosevkaYlagrFixed]
@@ -119,12 +119,12 @@ slopes.inherits = "buildPlans.IosevkaYlagr"
     # sb默认为60，调整到58后，字符显得挤了点
     sb = 59
     # 3. 【解决 Emacs 挤压的核心】往上下两端强行塞入硬空白
-    # 在底部强行垫 80 个单位的纯空白，逼迫 Emacs 露出底部间距
-    descenderPad = 80          
+    # 不起作用 在底部强行垫 80 个单位的纯空白，逼迫 Emacs 露出底部间距
+    # descenderPad = 80          
     
     # 配合顶部的系统垫片，这样上下都有保护层，Emacs 无论如何也裁剪不动它
-    winMetricAscenderPad = 80  
-    winMetricDescenderPad = 80 
+    winMetricAscenderPad = 200
+    winMetricDescenderPad = 251
 
 
 ################## base ###################
