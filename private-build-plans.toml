@@ -15,14 +15,22 @@ noLigation = true
     # leading = 1150
     # 1130显示55行
     # leading = 1130
-    leading = 1250
-    cap = 665
-    ascender = 665
-    xHeight = 480
+    # leading = 1250  # default
+    leading = 1350
+    # cap = 735  # default
+    cap = 625
+    # ascender = 735  # default
+    ascender = 625
+    # descender = -205  # default
+    descender = -174
+    # xHeight = 530  # default
+    xHeight = 450
+    # accentHeight = 136  # default
     accentHeight = 136
-    parenSize = 840
+    # parenSize = 966  # default
+    parenSize = 821
     # sb默认为60，调整到58后，字符显得挤了点
-    # sb = 59
+    sb = 59
 
 ################# term ###################
 [buildPlans.IosevkaYlagrTerm]
@@ -43,14 +51,22 @@ slopes.inherits = "buildPlans.IosevkaYlagr"
     # leading = 1150
     # 1130显示55行
     # leading = 1130
-    leading = 1250
-    cap = 665
-    ascender = 665
-    xHeight = 480
+    # leading = 1250  # default
+    leading = 1350
+    # cap = 735  # default
+    cap = 625
+    # ascender = 735  # default
+    ascender = 625
+    # descender = -205  # default
+    descender = -174
+    # xHeight = 530  # default
+    xHeight = 450
+    # accentHeight = 136  # default
     accentHeight = 136
-    parenSize = 840
+    # parenSize = 966  # default
+    parenSize = 821
     # sb默认为60，调整到58后，字符显得挤了点
-    # sb = 59
+    sb = 59
 
 ################### fixed ##################
 [buildPlans.IosevkaYlagrFixed]
@@ -67,18 +83,27 @@ widths.inherits = "buildPlans.IosevkaYlagr"
 slopes.inherits = "buildPlans.IosevkaYlagr"
 
     [buildPlans.IosevkaYlagrFixed.metricOverride]
+    # === 外部占据空间（保持原样，完全不动） ===
     # 1150 显示52行
     # leading = 1150
     # 1130显示55行
     # leading = 1130
-    leading = 1250
-    cap = 665
-    ascender = 665
-    xHeight = 480
+    # leading = 1250  # default
+    leading = 1350
+    # cap = 735  # default
+    cap = 625
+    # ascender = 735  # default
+    ascender = 625
+    # descender = -205  # default
+    descender = -174
+    # xHeight = 530  # default
+    xHeight = 450
+    # accentHeight = 136  # default
     accentHeight = 136
-    parenSize = 840
+    # parenSize = 966  # default
+    parenSize = 821
     # sb默认为60，调整到58后，字符显得挤了点
-    # sb = 59
+    sb = 59
 
 
 ################## base ###################
@@ -141,7 +166,7 @@ menu = "upright"
 css = "normal"
 
 [buildPlans.IosevkaYlagr.slopes.Italic]
-angle = 9.8
+angle = 9.6
 shape = "italic"
 menu = "italic"
 css = "italic"
