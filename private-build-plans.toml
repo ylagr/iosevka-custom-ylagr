@@ -36,8 +36,8 @@ noLigation = true
     # descenderPad = 80          
     
     # 配合顶部的系统垫片，这样上下都有保护层，Emacs 无论如何也裁剪不动它
-    winMetricAscenderPad = 200
-    winMetricDescenderPad = 251
+    winMetricAscenderPad = 280
+    winMetricDescenderPad = 175
 
 ################# term ###################
 [buildPlans.IosevkaYlagrTerm]
@@ -79,8 +79,8 @@ slopes.inherits = "buildPlans.IosevkaYlagr"
     # descenderPad = 80           
     
     # 配合顶部的系统垫片，这样上下都有保护层，Emacs 无论如何也裁剪不动它
-    winMetricAscenderPad = 200
-    winMetricDescenderPad = 251
+    winMetricAscenderPad = 280
+    winMetricDescenderPad = 175
 
 ################### fixed ##################
 [buildPlans.IosevkaYlagrFixed]
@@ -123,8 +123,8 @@ slopes.inherits = "buildPlans.IosevkaYlagr"
     # descenderPad = 80          
     
     # 配合顶部的系统垫片，这样上下都有保护层，Emacs 无论如何也裁剪不动它
-    winMetricAscenderPad = 200
-    winMetricDescenderPad = 251
+    winMetricAscenderPad = 280
+    winMetricDescenderPad = 175
 
 
 ################## base ###################
